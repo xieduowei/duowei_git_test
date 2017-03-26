@@ -1,0 +1,31 @@
+{
+  "name": "joke-cli",
+  "version": "1.0.0",
+  "description": "命令行爬虫练习",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xieduowei/duowei_git_test.git"
+  },
+  "keywords": [
+    "爬虫",
+    "命令行"
+  ],
+  "author": "duowei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xieduowei/duowei_git_test/issues"
+  },
+  "homepage": "https://github.com/xieduowei/duowei_git_test#readme",
+  "devDependencies": {
+    "superagent": "^3.5.2"
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  }
+}
