@@ -21,6 +21,7 @@ app.listen('8080',function () {
 
 app.get('/',function (req,res) {
 
+
     res.render('index.ejs',{})
 })
 app.get('/query',function (req,res) {
