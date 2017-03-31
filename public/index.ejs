@@ -3,20 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="//unpkg.com/iview/dist/styles/iview.css">
+    <!-- 引入组件库 -->
+    <script src="/lib/jquery.js"></script>
+    <script src="//vuejs.org/js/vue.min.js"></script>
+    <script src="//unpkg.com/iview/dist/iview.min.js"></script>
 </head>
 <body>
     <div id="app">
-        <button @click="gotolist()">查看笑话</button>
+        <i-button @click="gotolist()">查看笑话</i-button>
         <ul>
             <li v-for="(key,value) in list" style="margin-top: 10px">
-                {{value}}
+                {{key}}
             </li>
         </ul>
     </div>
 
 </body>
-<script src="/lib/jquery.js"></script>
-<script src="/lib/vue.js"></script>
+
 <script>
     $(document).ready(function () {
         var vm = new Vue({
